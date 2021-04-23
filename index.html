@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="/asset/icon/favicon-32x32.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Componente de tarjeta de vista previa de estadísticas</title>
+  </head>
+  <body>
+    <main class="main">
+      <article class="body">
+        <h1 class="body__title">
+          <span class="title__span">Infórmate</span> para ayudar a crecer su
+          negocio.
+        </h1>
+        <p class="body__text">
+          Descubra los beneficios del análisis de datos y tome mejores
+          decisiones con respecto a los ingresos, la experiencia del cliente y
+          la eficiencia general.
+        </p>
+        <section class="body__stats">
+          <div class="stats__data">
+            <h2 class="data__number">10k+</h2>
+            <p class="data__title">empresas</p>
+          </div>
+          <div class="stats__data">
+            <h2 class="data__number">314</h2>
+            <p class="data__title">plantillas</p>
+          </div>
+          <div class="stats__data">
+            <h2 class="data__number">12m+</h2>
+            <p class="data__title">consultas</p>
+          </div>
+        </section>
+      </article>
+      <picture class="image">
+        <source
+          media="(max-width: 375px)"
+          srcset="./asset/images/mobile/image-header-mobile.jpg"
+        />
+        <img
+          src="./asset/images/desktop/image-header-desktop.jpg"
+          alt="Imagen de personas en la oficina."
+        />
+      </picture>
+    </main>
+  </body>
+</html>
